@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p,
+span {
+  font-size: 12px;
+}
+li {
+  list-style: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.top {
+  background-color: #1C2329;
+  width: 100%;
+  height: 60px;
+  color: white;
+  border-bottom: #1B6D85 2px solid;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top h1 {
+  font-size: 26px;
+}
+.big-div {
+  background-color: #1C2329;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  min-height: 100%;
+}
+.yonghu {
+  overflow: hidden;
+  background-color: #1C2329;
+  width: 200px;
+  height: 100%;
+  color: white;
+}
+.yonghu .gly {
+  background-color: #191919;
+  width: 100%;
+  height: 150px;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+.yonghu .gly h4 {
+  margin-bottom: 12px;
+}
+.list-div {
+  width: 100%;
+  padding-top: 1px;
+}
+.list-div .list {
+  background-color: #243139;
+  margin-top: 2px;
+  padding: 3px;
+  padding-left: 40px;
+}
+.list-div .list a {
+  text-decoration: none;
+  color: #D5D5D5;
+}
+.rbig {
+  width: 100%;
+  background-color: #D5D7D4;
+  padding: 0px 20px 20px 20px;
+}
+.rbig .shuoming {
+  margin-top: 20px;
+}
+.rbig .shuoming .header {
+  padding: 3px 0 0 20px;
+  background-color: #74c8c8;
+  border-bottom: 1px #30AE3C solid;
+}
+.rbig .shuoming .header h4 {
+  padding: 6px 0 6px 0;
+}
+.rbig .shuoming .smnr {
+  background-color: #efefef;
+  padding-top: 0.1px;
+}
+.rbig .shuoming .smnr p {
+  padding-left: 20px;
+  margin-top: 5px;
+}
+.newslist .sousuo-div {
+  background-color: wheat;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.newslist .sousuo-div input {
+  width: 50%;
+  height: 30px;
+}
+.newslist .sousuo-div .btn {
+  height: 30px;
+  width: 80px;
+  color: white;
+  background-color: lightgreen;
+}
+.newslist table {
+  background-color: white;
+  margin-top: 20px;
+  border: 1px #204D74 solid;
+  width: 100%;
+  border-collapse: collapse;
+}
+.newslist th,
+.newslist td {
+  border: 1px #204D74 solid;
+  text-align: center;
+}
+.newslist td a:hover{
+	color: red;
+}
+.newslist th {
+  background-color: #D5EEF3;
+}
+.newslist .pag {
+  width: 200px;
+  margin: 0 auto;
+}
+.newslist .pag li a{
+	
+	margin: 0.1px;
+}
+.newslist .pag .on{
+	border: green 1px solid;
+	color: green;
+}
+.fabu form {
+  margin-top: 20px;
+  background-color: white;
+}
+.fabu .btn {
+  background-color: lightgreen;
+  width: 80px;
+  text-align: center;
+}
+.fabu .list {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  border: 1px #b8b8b8 solid;
+}
+.fabu .list .lb {
+  width: 20%;
+  height: auto;
+  border-right: 1px #b8b8b8 solid;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fabu .list .txt {
+  width: 70%;
+  height: auto;
+  margin-left: 6px;
+}
+.fabu .list .inp {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.fabu .list .inp input {
+  width: 80%;
+  height: 26px;
+  margin-left: 6px;
+}
+.fabu .list .inp select {
+  width: 80%;
+  height: 26px;
+  margin-left: 6px;
+}
+.fabu .list .inp .btn {
+  width: 80px;
+}

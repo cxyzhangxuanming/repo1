@@ -1,0 +1,55 @@
+create table admin(
+id int PRIMARY key auto_increment,
+username VARCHAR(20),
+password char(32)
+)
+
+
+create table board(
+id int PRIMARY KEY auto_increment,
+boardname VARCHAR(20),
+content text
+)
+
+create TABLE news(
+id int PRIMARY KEY auto_increment,
+title varchar(50),
+cate_id int DEFAULT 0,
+author VARCHAR(30),
+content text,
+img VARCHAR(50),
+intime TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+hits int DEFAULT 0
+);
+
+create TABLE product(
+id int PRIMARY KEY auto_increment,
+productname varchar(40),
+pro_no varchar(30),
+cate_id int DEFAULT 0,
+content text,
+img VARCHAR(50),
+intime TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+hits int DEFAULT 0
+)
+
+create TABLE category(
+id int PRIMARY KEY auto_increment,
+catename VARCHAR(30),
+orderno tinyint unsigned DEFAULT 5
+);
+
+create TABLE flink(
+id int PRIMARY KEY auto_increment,
+title VARCHAR(20),
+link_url varchar(50),
+content VARCHAR(50),
+intime timestamp DEFAULT CURRENT_TIMESTAMP
+);
+
+create table guestbook(
+id int PRIMARY KEY auto_increment,
+username VARCHAR(30),
+context text,
+intime timestamp DEFAULT CURRENT_TIMESTAMP
+);
